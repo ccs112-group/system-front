@@ -37,10 +37,7 @@ export default function Login({cartItem, userUpdate}) {
         <div className="container veiw-h">
             <div className="row my-5">
                 <div className="col-md-4 m-auto bg-white rounded p-5">
-                    <h4>Hell<i className="fas fa-power-off fs-6"></i>! let's get started </h4>
-                    <h6 className="fw-light">Sign in to continue.</h6>
-                    
-                        <div className="alert alert-success"></div>
+               
                     
                     {/* <form action="/user_login" method="POST" className="mt-4"> */}
                         
