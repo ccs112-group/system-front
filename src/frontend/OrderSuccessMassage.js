@@ -11,7 +11,7 @@ export default function OrderSuccessMassage() {
             <p className="text-center">Your order has been successfully placed.</p>
             <hr/>
             <div className="mb-0 d-grid gap-2 col-7 mx-auto">
-                <Link className="btn btn-success btn-lg" to="/">Back to Homepage</Link>
+                <Link className="btn btn-success" to="/">Back to Homepage</Link>
             </div>
         </div>
     </div>

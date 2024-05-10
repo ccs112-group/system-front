@@ -64,3 +64,14 @@
   object-fit: cover;
   object-position: center;
 }
+.card-body,.card-header,.table {
+  border: 2px solid black;
+  outline: none;
+}
+
+.mb-0,.card-header{ 
+background-color: #61dafb;
+}
+.btn-success{
+margin-top: 10px;
+}
