@@ -12,6 +12,7 @@ import Checkout from './frontend/Checkout';
 import OrderSuccessMassage from './frontend/OrderSuccessMassage';
 import Logout from './frontend/Logout';
 import './App.css';
+import AdminPage from './admin/adminpage';
 
 // import CartList from './frontend/CartList';
 
@@ -52,6 +53,7 @@ function App() {
             
             <Route path="/checkout" element={<Checkout cartItem={cartItems} />} />
             <Route path="/massage" element={<OrderSuccessMassage />} />
+            <Route path="/admin" element={<AdminPage />} />
           
             <Route path="/logout" element={<Logout emptyCart={emptyCart} />} />
           </Route>

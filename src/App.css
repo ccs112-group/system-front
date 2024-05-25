@@ -75,3 +75,30 @@ background-color: #61dafb;
 .btn-success{
 margin-top: 10px;
 }
+
+.table-prod th, .table-prod tr, .table-prod td {
+  border-collapse: collapse;
+  border: 1px black solid;
+  padding: 10px 0px;
+}
+
+.table-prod {
+  text-align: center;
+  width: 90vw;
+  margin: 30px;
+}
+
+.table-prod th{
+  padding:10px 70px;
+}
+
+.table-prod .btn{
+  margin: 0px  10px;
+}
+
+.tbl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px
+}
